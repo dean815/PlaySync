@@ -1,8 +1,6 @@
 # AGENTS.md
 
-> **Codex mirror of `CLAUDE.md`.** Refresh this file whenever `CLAUDE.md` changes; edit `CLAUDE.md`, never this copy alone.
-
-This file provides guidance to Codex when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## What this is
 
@@ -57,6 +55,4 @@ Client methods generally catch exceptions internally, `print()`/log the error, a
 - Apple Music track addition is simulated, not real, due to catalog ID lookup complexity.
 - Minimal error handling/retry logic beyond the catch-and-return-falsy pattern above.
 
-## Working guidelines
-
-`CLAUDE.md` pulls in `.claude/dean-guidelines.md` with an `@` import, which Codex does not resolve. Read that file before starting work and follow it.
+Read `.claude/dean-guidelines.md` before starting work and follow it. Claude Code loads it automatically through `CLAUDE.md`; other agents must open it themselves.
